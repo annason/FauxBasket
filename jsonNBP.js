@@ -22,9 +22,9 @@ window.currencies = {
     "GBP": 4.9456
 };
 
-const EUROURL = "http://api.nbp.pl/api/exchangerates/rates/a/eur/?format=json";
-const USDURL = "http://api.nbp.pl/api/exchangerates/rates/a/usd/?format=json";
-const GBPURL = "http://api.nbp.pl/api/exchangerates/rates/a/gbp/?format=json";
+const EUROURL = "https://api.nbp.pl/api/exchangerates/rates/a/eur/?format=json";
+const USDURL = "https://api.nbp.pl/api/exchangerates/rates/a/usd/?format=json";
+const GBPURL = "https://api.nbp.pl/api/exchangerates/rates/a/gbp/?format=json";
 
 
 function ajax(url) {
